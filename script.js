@@ -1,4 +1,6 @@
 document.body.onload = () => {
+
+    alert("Click on page to enable/disable the animation")
     let qs = document.querySelector('#page')
     new AnimatePage(qs)
 }
