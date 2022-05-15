@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body {
+    background: rgb(10,69,70);
+    background: radial-gradient(circle, rgba(54,23,153,1) 0%, rgba(17,49,145,1) 50%, rgba(15,43,136,1) 70%, rgba(13,44,125,1) 100%);
+    display: grid;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding:0;
+    position: relative;
+    place-items: center;
+    overflow: hidden;
+}
+
+p {
+    margin: 0;
+}
+
+#page {
+    background: white;
+    border: 1px solid white;
+    font-size: 18px;
+    height: 600px;
+    margin-top: 30px;
+    padding: 10px;
+    width: 400px;
+}
